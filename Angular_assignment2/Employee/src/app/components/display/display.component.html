@@ -1,0 +1,29 @@
+<div class="container">
+    <h3 class="text-success">{{title}}</h3>
+        <p>{{get.fn}} {{get.ln}}</p>
+    <div class="table-responsive">
+        <table class="table shadow-lg p-3 mb-5 bg-body rounded">
+            <thead class="table-dark table-striped table-hover table-bordered border-dark">
+                <tr>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Salary</th>
+                    <th scope="col">Department</th>
+                </tr>
+            </thead>
+            <tbody *ngIf="employeeServices.employee && employeeServices.employee.length!=0; else empty" class="table-success">
+                <tr *ngFor="let data of employeeServices.employee">
+                    <td (click)="show(data)">{{data.firstName }} </td>
+                    <td>{{data.lastName }}</td>
+                    <td>{{data.salary}}</td>
+                    <td>{{data.department}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <ng-template #empty>
+            <h3 class="text-danger">Table empty!</h3>
+        </ng-template> 
+    </div>
+</div>

@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "tom",
+      "lastName": "grant",
+      "salary": "150000",
+      "department": "Sales"
+    },
+    {
+      "id": 2,
+      "firstName": "jeniffer",
+      "lastName": "jonnes",
+      "salary": "100000",
+      "department": "IT"
+    },
+    {
+      "id": 3,
+      "firstName": "marie",
+      "lastName": "roberts",
+      "salary": "100000",
+      "department": "HR"
+    },
+    {
+      "id": 4,
+      "firstName": "james",
+      "lastName": "hopkins",
+      "salary": "100000",
+      "department": "Marketing"
+    },
+    {
+      "id": 5,
+      "firstName": "andres eduardo",
+      "lastName": "yepes",
+      "salary": "55000",
+      "department": "IT"
+    }
+  ],
+  "signupUsers": [
+    {
+      "username": "ayepes",
+      "fullName": "Andres Yepes",
+      "password": "Aeym1998",
+      "id": 1
+    },
+    {
+      "username": "prueba",
+      "fullName": "prueba uno",
+      "password": "aeym1998",
+      "id": 2
+    },
+    {
+      "username": "Kander23",
+      "fullName": "Andres Yepes",
+      "password": "Kander26369180",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
